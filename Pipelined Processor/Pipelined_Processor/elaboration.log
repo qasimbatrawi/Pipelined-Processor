@@ -1,0 +1,43 @@
+Active-HDL 15.0.261.9132 2025-01-16 21:29:16
+
+Elaboration top modules:
+Verilog Module                tb_DataPath
+
+
+-------------------------------------------------------------------------------------------------------
+Verilog Module          | Library             | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+tb_DataPath             | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+DataPath                | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+MainControlUnit         | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+PCControlUnit           | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ForwordingControlUnit   | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+IFStage                 | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+IF_ID                   | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+IDStage                 | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ID_EXE                  | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+EXEStage                | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+EXE_MEM                 | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+MEMStage                | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+MEM_WB                  | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+InstructionMemory       | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+mux_2                   | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Extender                | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+RegisterFile            | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+mux_4                   | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Compare                 | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ALU                     | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+DataMemory              | pipelined_processor |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------------------
+pipelined_processor     | None
+-------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r tb_DataPath
+
+
+The performance of simulation is reduced. Version Student Edition

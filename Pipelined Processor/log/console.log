@@ -1,0 +1,356 @@
+open -txt {D:\uni\y3 s1\Architecture ENCS4370\Projects\Project_2\Project_2.wsw}
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/IDStage.v
+# Warning: VCP2515 IDStage.v : (106, 7): Undefined module: RegisterFile was used. Port connection rules will not be checked at such instantiations.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/ALU.v $dsn/src/components.v $dsn/src/ControlUnit.v $dsn/src/DataMemory.v $dsn/src/DataPath.v $dsn/src/EXE_MEM.v $dsn/src/EXEStage.v $dsn/src/ID_EXE.v $dsn/src/IDStage.v $dsn/src/IF_ID.v $dsn/src/IFStage.v $dsn/src/InstructionMemory.v $dsn/src/MEM_WB.v $dsn/src/MEMStage.v $dsn/src/RegisterFile.v
+# Error: VCP1010 Cannot find source file: D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v
+# Warning: VCP2515 InstructionMemory.v : (82, 80): Undefined module: InstMemory was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/ALU.v $dsn/src/components.v $dsn/src/ControlUnit.v $dsn/src/DataMemory.v $dsn/src/DataPath.v $dsn/src/EXE_MEM.v $dsn/src/EXEStage.v $dsn/src/ID_EXE.v $dsn/src/IDStage.v $dsn/src/IF_ID.v $dsn/src/IFStage.v $dsn/src/InstructionMemory.v $dsn/src/MEM_WB.v $dsn/src/MEMStage.v $dsn/src/RegisterFile.v
+# Error: VCP1010 Cannot find source file: D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/ALU.v $dsn/src/components.v $dsn/src/ControlUnit.v $dsn/src/DataMemory.v $dsn/src/DataPath.v $dsn/src/EXE_MEM.v $dsn/src/EXEStage.v $dsn/src/ID_EXE.v $dsn/src/IDStage.v $dsn/src/IF_ID.v $dsn/src/IFStage.v $dsn/src/InstructionMemory.v $dsn/src/MEM_WB.v $dsn/src/MEMStage.v $dsn/src/RegisterFile.v
+# Error: VCP1010 Cannot find source file: D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v
+# Warning: VCP2515 InstructionMemory.v : (82, 95): Undefined module: InstMemory was used. Port connection rules will not be checked at such instantiations.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/ALU.v $dsn/src/components.v $dsn/src/ControlUnit.v $dsn/src/DataMemory.v $dsn/src/DataPath.v $dsn/src/EXE_MEM.v $dsn/src/EXEStage.v $dsn/src/ID_EXE.v $dsn/src/IDStage.v $dsn/src/IF_ID.v $dsn/src/IFStage.v $dsn/src/InstructionMemory.v $dsn/src/MEM_WB.v $dsn/src/MEMStage.v $dsn/src/RegisterFile.v
+# Error: VCP1010 Cannot find source file: D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/ALU.v $dsn/src/components.v $dsn/src/ControlUnit.v $dsn/src/DataMemory.v $dsn/src/DataPath.v $dsn/src/EXE_MEM.v $dsn/src/EXEStage.v $dsn/src/ID_EXE.v $dsn/src/IDStage.v $dsn/src/IF_ID.v $dsn/src/IFStage.v $dsn/src/InstructionMemory.v $dsn/src/MEM_WB.v $dsn/src/MEMStage.v $dsn/src/RegisterFile.v
+# Error: VCP1010 Cannot find source file: D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 DataPath.v (94): Design unit IFStage instantiated in pipelined_processor.DataPath not found in searched libraries: pipelined_processor.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 DataPath.v (94): Design unit IFStage instantiated in pipelined_processor.DataPath not found in searched libraries: pipelined_processor.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/DataPath.v
+# Warning: VCP2515 DataPath.v : (108, 7): Undefined module: IFStage was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataPath.v : (117, 7): Undefined module: IF_ID was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataPath.v : (220, 7): Undefined module: MEMStage was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataPath.v : (229, 7): Undefined module: MEM_WB was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: tb_DataPath.
+# Compile success 0 Errors 4 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 DataPath.v (94): Design unit IFStage instantiated in pipelined_processor.DataPath not found in searched libraries: pipelined_processor.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 DataPath.v (94): Design unit IFStage instantiated in pipelined_processor.DataPath not found in searched libraries: pipelined_processor.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/DataPath.v
+# Warning: VCP2515 DataPath.v : (108, 7): Undefined module: IFStage was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataPath.v : (117, 7): Undefined module: IF_ID was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataPath.v : (220, 7): Undefined module: MEMStage was used. Port connection rules will not be checked at such instantiations.
+# Warning: VCP2515 DataPath.v : (229, 7): Undefined module: MEM_WB was used. Port connection rules will not be checked at such instantiations.
+# Unit top modules: tb_DataPath.
+# Compile success 0 Errors 4 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/IFStage.v
+# Warning: VCP2515 IFStage.v : (19, 7): Undefined module: InstructionMemory was used. Port connection rules will not be checked at such instantiations.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/InstructionMemory.v
+# Unit top modules: InstMemory_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/IF_ID.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/MEM_WB.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/MEMStage.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/RegisterFile.v
+# Unit top modules: RegisterFile_TB.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Pipelined_Processor $dsn/src/ALU.v $dsn/src/components.v $dsn/src/ControlUnit.v $dsn/src/DataMemory.v $dsn/src/DataPath.v $dsn/src/EXE_MEM.v $dsn/src/EXEStage.v $dsn/src/ID_EXE.v $dsn/src/IDStage.v $dsn/src/IF_ID.v $dsn/src/IFStage.v $dsn/src/InstructionMemory.v $dsn/src/MEM_WB.v $dsn/src/MEMStage.v $dsn/src/RegisterFile.v
+# Error: VCP1010 Cannot find source file: D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r tb_DataPath
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: DataPath.v (112): Length of connection (32) does not match the length of port "nextPCIn" (16) on instance "/tb_DataPath/uut/I_D".
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.7 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 58 (100.00%) other processes in SLP
+# SLP: 364 (99.18%) signals in SLP and 3 (0.82%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5255 kB (elbread=427 elab2=4692 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y3 s1\Architecture ENCS4370\Projects\Project_2\Pipelined Processor\src\wave.asdb
+#  9:28 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Total number of executed instructions: 5
+# KERNEL: Total number of load instructions: 0
+# KERNEL: Total number of store instructions: 0
+# KERNEL: Total number of alu instructions: 5
+# KERNEL: Total number of control instructions: 0
+# KERNEL: Total number of stall cycles: 0
+# KERNEL: Total number of cycles: 9
+# RUNTIME: Info: RUNTIME_0068 DataPath.v (54): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /tb_DataPath/uut,  Process: @INITIAL#44_1@.
+# KERNEL: stopped at time: 500 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/tb_DataPath/clk}
+# add wave -noreg {/tb_DataPath/instruction_IF}
+# add wave -noreg {/tb_DataPath/instruction_ID}
+# add wave -noreg {/tb_DataPath/PC_IF}
+# add wave -noreg {/tb_DataPath/PC_ID}
+# add wave -noreg {/tb_DataPath/PCSrc}
+# add wave -noreg {/tb_DataPath/Branch_TA}
+# add wave -noreg {/tb_DataPath/Jump_TA}
+# add wave -noreg {/tb_DataPath/For_TA}
+# add wave -noreg {/tb_DataPath/ALUOp_ID}
+# add wave -noreg {/tb_DataPath/ALUOp_EXE}
+# add wave -noreg {/tb_DataPath/RegWr_ID}
+# add wave -noreg {/tb_DataPath/RegWr_EXE}
+# add wave -noreg {/tb_DataPath/RegWr_MEM}
+# add wave -noreg {/tb_DataPath/RegWr_WB}
+# add wave -noreg {/tb_DataPath/MemR_ID}
+# add wave -noreg {/tb_DataPath/MemR_EXE}
+# add wave -noreg {/tb_DataPath/MemR_MEM}
+# add wave -noreg {/tb_DataPath/MemW_ID}
+# add wave -noreg {/tb_DataPath/MemW_EXE}
+# add wave -noreg {/tb_DataPath/MemW_MEM}
+# add wave -noreg {/tb_DataPath/WB_ID}
+# add wave -noreg {/tb_DataPath/WB_EXE}
+# add wave -noreg {/tb_DataPath/WB_MEM}
+# add wave -noreg {/tb_DataPath/ALUSrc1_signal_ID}
+# add wave -noreg {/tb_DataPath/ALUSrc1_signal_EXE}
+# add wave -noreg {/tb_DataPath/ALUSrc2_signal_ID}
+# add wave -noreg {/tb_DataPath/ALUSrc2_signal_EXE}
+# add wave -noreg {/tb_DataPath/Destination_ID}
+# add wave -noreg {/tb_DataPath/Source1_ID}
+# add wave -noreg {/tb_DataPath/Source2_ID}
+# add wave -noreg {/tb_DataPath/CompSrc_ID}
+# add wave -noreg {/tb_DataPath/ExOp_ID}
+# add wave -noreg {/tb_DataPath/J_ID}
+# add wave -noreg {/tb_DataPath/JumpSrc}
+# add wave -noreg {/tb_DataPath/RRWE}
+# add wave -noreg {/tb_DataPath/ForwardA}
+# add wave -noreg {/tb_DataPath/ForwardB}
+# add wave -noreg {/tb_DataPath/WBData_MEM}
+# add wave -noreg {/tb_DataPath/WBData_WB}
+# add wave -noreg {/tb_DataPath/ALUOut_EXE}
+# add wave -noreg {/tb_DataPath/ALUOut_MEM}
+# add wave -noreg {/tb_DataPath/MemoryOut}
+# add wave -noreg {/tb_DataPath/controlsignals}
+# add wave -noreg {/tb_DataPath/comp_res}
+# add wave -noreg {/tb_DataPath/Rs1}
+# add wave -noreg {/tb_DataPath/Rs2}
+# add wave -noreg {/tb_DataPath/Rd}
+# add wave -noreg {/tb_DataPath/Rd2}
+# add wave -noreg {/tb_DataPath/Rd3}
+# add wave -noreg {/tb_DataPath/Rd4}
+# add wave -noreg {/tb_DataPath/func}
+# add wave -noreg {/tb_DataPath/opcode}
+# add wave -noreg {/tb_DataPath/Bus1_ID}
+# add wave -noreg {/tb_DataPath/Bus1_EXE}
+# add wave -noreg {/tb_DataPath/Bus2_ID}
+# add wave -noreg {/tb_DataPath/Bus2_EXE}
+# add wave -noreg {/tb_DataPath/Bus2_MEM}
+# add wave -noreg {/tb_DataPath/imm_ID}
+# add wave -noreg {/tb_DataPath/imm_EXE}
+# add wave -noreg {/tb_DataPath/kill}
+# add wave -noreg {/tb_DataPath/stall}
+# add wave -noreg {/tb_DataPath/CurrentPC}
+# add wave -noreg {/tb_DataPath/New_PC_Plus_1_ID}
+# add wave -noreg {/tb_DataPath/num_executed_instructions}
+# add wave -noreg {/tb_DataPath/num_lw}
+# add wave -noreg {/tb_DataPath/num_sw}
+# add wave -noreg {/tb_DataPath/num_alu}
+# add wave -noreg {/tb_DataPath/num_control}
+# add wave -noreg {/tb_DataPath/num_cycles}
+# add wave -noreg {/tb_DataPath/num_stall}
+# VSIM: 71 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'D:/uni/y3s1/ArchitectureENCS4370/Projects/Project_2/PipelinedProcessor/src/waveform.asdb'.
+# Adding file D:\uni\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.asdb ... Done
+# Adding file D:\uni\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.awc ... Done
+# Adding file D:\uni\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r tb_DataPath
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 58 (100.00%) other processes in SLP
+# SLP: 364 (99.18%) signals in SLP and 3 (0.82%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5255 kB (elbread=427 elab2=4692 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y3 s1\Architecture ENCS4370\Projects\Project_2\Pipelined Processor\src\wave.asdb
+#  9:28 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Total number of executed instructions: 5
+# KERNEL: Total number of load instructions: 0
+# KERNEL: Total number of store instructions: 0
+# KERNEL: Total number of alu instructions: 5
+# KERNEL: Total number of control instructions: 0
+# KERNEL: Total number of stall cycles: 0
+# KERNEL: Total number of cycles: 9
+# RUNTIME: Info: RUNTIME_0068 DataPath.v (54): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /tb_DataPath/uut,  Process: @INITIAL#44_1@.
+# KERNEL: stopped at time: 500 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r tb_DataPath
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 58 (100.00%) other processes in SLP
+# SLP: 364 (99.18%) signals in SLP and 3 (0.82%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5255 kB (elbread=427 elab2=4692 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y3 s1\Architecture ENCS4370\Projects\Project_2\Pipelined Processor\src\wave.asdb
+#  9:29 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r tb_DataPath
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 58 (100.00%) other processes in SLP
+# SLP: 364 (99.18%) signals in SLP and 3 (0.82%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5255 kB (elbread=427 elab2=4692 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y3 s1\Architecture ENCS4370\Projects\Project_2\Pipelined Processor\src\wave.asdb
+#  9:29 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Total number of executed instructions: 5
+# KERNEL: Total number of load instructions: 0
+# KERNEL: Total number of store instructions: 0
+# KERNEL: Total number of alu instructions: 5
+# KERNEL: Total number of control instructions: 0
+# KERNEL: Total number of stall cycles: 0
+# KERNEL: Total number of cycles: 9
+# RUNTIME: Info: RUNTIME_0068 DataPath.v (54): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /tb_DataPath/uut,  Process: @INITIAL#44_1@.
+# KERNEL: stopped at time: 500 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# Adding file D:\uni\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r tb_DataPath
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 58 (100.00%) other processes in SLP
+# SLP: 364 (99.18%) signals in SLP and 3 (0.82%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5255 kB (elbread=427 elab2=4692 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location D:\uni\y3 s1\Architecture ENCS4370\Projects\Project_2\Pipelined Processor\src\wave.asdb
+#  9:29 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Total number of executed instructions: 5
+# KERNEL: Total number of load instructions: 0
+# KERNEL: Total number of store instructions: 0
+# KERNEL: Total number of alu instructions: 5
+# KERNEL: Total number of control instructions: 0
+# KERNEL: Total number of stall cycles: 0
+# KERNEL: Total number of cycles: 9
+# RUNTIME: Info: RUNTIME_0068 DataPath.v (54): $finish called.
+# KERNEL: Time: 500 ps,  Iteration: 0,  Instance: /tb_DataPath/uut,  Process: @INITIAL#44_1@.
+# KERNEL: stopped at time: 500 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# Adding file D:\uni\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.awc ... Done

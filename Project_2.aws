@@ -1,0 +1,11 @@
+[Version]
+Version=15.0
+[Designs]
+pipelined processor=.\Pipelined Processor\Pipelined Processor.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+pipelined processor=1

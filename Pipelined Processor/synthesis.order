@@ -1,0 +1,15 @@
+i<>.\src\ALU.v
+i<>.\src\components.v
+i<>.\src\ControlUnit.v
+i<>.\src\DataMemory.v
+i<>.\src\DataPath.v
+i<>.\src\EXE_MEM.v
+i<>.\src\EXEStage.v
+i<>.\src\ID_EXE.v
+i<>.\src\IDStage.v
+i<>.\src\IF_ID.v
+i<>.\src\IFStage.v
+i<>.\src\InstructionMemory.v
+i<>.\src\Mem_WB.v
+i<>.\src\MEMStage.v
+i<>.\src\RegisterFile.v

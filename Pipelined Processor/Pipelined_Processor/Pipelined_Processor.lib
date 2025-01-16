@@ -1,0 +1,231 @@
+timestamp=1737055703799
+
+[~A]
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v=0*687*1803
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v_components.v_ControlUnit.v_DataMemory.v_DataPath.v_EXE_MEM.v_EXEStage.v_ID_EXE.v_IDStage.v=0*10691*19242
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/DataPath.v=0*30493*34094
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/IDStage.v=0*20979*22915
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/IFStage.v=0*35329*36432
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/IF_ID.v=0*39940*40513
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/InstructionMemory.v=0*37772*38757
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/MEMStage.v=0*43424*44080
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/MEM_WB.v=0*41672*42230
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/RegisterFile.v=0*45448*46669
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/components.v=0*3505*4371
+LastVerilogToplevel=RegisterFile_TB
+ModifyID=12
+Version=74
+
+[~MFT]
+0=5|0Pipelined_Processor.mgf|46669|4202
+1=4|1Pipelined_Processor.mgf|124846|60086
+3=8|3Pipelined_Processor.mgf|68199|24431
+
+[$root]
+A/$root=22|||1*122544
+BinW64/$root=3*64813
+SLP=3*64928
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216ff5d37abec828c5ce830d13512feb8a7
+
+[ALU]
+A/ALU=22|../src/ALU.v|1|1*10549
+BinW64/ALU=3*11106
+R=../src/ALU.v|1
+SLP=3*12743
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3eb40c25b2a3c0379c7730185183eec29aaa92affe64313f4ced800e89f10af
+
+[ALU_TB]
+A/ALU_TB=22|../src/ALU.v|32|1*12603
+BinW64/ALU_TB=3*13136
+R=../src/ALU.v|32
+SLP=3*14675
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|36f388c45b5ac3e9478203b9a3b21952c4c1b8026238d579a2e09aa7e11fa7dc
+
+[Compare]
+A/Compare=22|../src/components.v|43|1*18945
+BinW64/Compare=3*20886
+R=../src/components.v|43
+SLP=3*21388
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|87f2930aabb469b9164f76b4ac83733026527262ddaa47cb266f3a3c4d9b973a395fd91a8fb93f113a69ec153b4732e0
+
+[DataMemory]
+A/DataMemory=22|../src/DataMemory.v|1|1*24503
+BinW64/DataMemory=3*28566
+R=../src/DataMemory.v|1
+SLP=3*29555
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ab5b04ae54b0797c38b8547f936232d99426d89c50ff4379bf89bab4c639842d853a8a500ed852b53ea7df563a151967
+
+[DataMemory_TB]
+A/DataMemory_TB=22|../src/DataMemory.v|47|1*26165
+BinW64/DataMemory_TB=3*30226
+R=../src/DataMemory.v|47
+SLP=3*31562
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|927e25a7ce4e2cd227f99f52df4c6f62dc67844cec0fd1607ace3f4e67dff3bda5345809b70805b6ffb6daec79778b5e
+
+[DataPath]
+A/DataPath=22|../src/DataPath.v|1|1*91191
+BinW64/DataPath=3*53710
+R=../src/DataPath.v|1
+SLP=3*54838
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|87c3ba206c41e36441893af3ba1836cdc6bbd1a65b0a1afe728fa8b90cb39ee1d2f2179c35c4e922b3f7c5a979e0928e
+
+[EXEStage]
+A/EXEStage=22|../src/EXEStage.v|1|1*50238
+BinW64/EXEStage=3*41658
+R=../src/EXEStage.v|1
+SLP=3*42354
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8b71b443d604dfe1a484958fafd38aeb5df0c91d9fd255c758cec4d3f5cc52155ccf4d151e3cc2178d170407774436c5
+
+[EXE_MEM]
+A/EXE_MEM=22|../src/EXE_MEM.v|1|1*52166
+BinW64/EXE_MEM=3*42670
+R=../src/EXE_MEM.v|1
+SLP=3*43255
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c92401acfa3b170aa0dace64cc24dce826527262ddaa47cb266f3a3c4d9b973a71797565af98e4de708e5962ee0cf444
+
+[Extender]
+A/Extender=22|../src/components.v|22|1*17889
+BinW64/Extender=3*20036
+R=../src/components.v|22
+SLP=3*20580
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|a261af10a9c686e7aecc5c2773f178128e9d9588c4ff5cca4594dc3e49d761f75da6c8621defb0a2cf9b3af66cdca742
+
+[ForwordingControlUnit]
+A/ForwordingControlUnit=22|../src/ControlUnit.v|84|1*22671
+BinW64/ForwordingControlUnit=3*26284
+R=../src/ControlUnit.v|84
+SLP=3*27724
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|74c5c0f378ebc82e00831bda1ed967900babbcfb58fa952e465d41c3e11c357e688f530a9c098c85be3c8c0104da8c49
+
+[IDStage]
+A/IDStage=22|../src/IDStage.v|1|1*62766
+BinW64/IDStage=3*44463
+R=../src/IDStage.v|1
+SLP=3*47975
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|aea204e0485281cf71400052df86587326527262ddaa47cb266f3a3c4d9b973a38005bdeb01224011812b3b3a5f7d2fd
+
+[ID_EXE]
+A/ID_EXE=22|../src/ID_EXE.v|1|1*47480
+BinW64/ID_EXE=3*40508
+R=../src/ID_EXE.v|1
+SLP=3*41209
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|1f7cabd8e28e8a488304c2ce0fdf5914e0d716d2bcaebf5c1ccb675c6cfe5a62
+
+[IFStage]
+A/IFStage=22|../src/IFStage.v|1|1*110342
+BinW64/IFStage=3*56873
+R=../src/IFStage.v|1
+SLP=3*58501
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ff3c6229497c1bf9469ddb190df3141926527262ddaa47cb266f3a3c4d9b973ade5aca662cf94e58da11b34d7242a081
+
+[IF_ID]
+A/IF_ID=22|../src/IF_ID.v|1|1*117070
+BinW64/IF_ID=3*62668
+R=../src/IF_ID.v|1
+SLP=3*63144
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|a129e128553cf383a30da3e0968e1bcbca0fbac46db9a90a5a5c2ac67250d202
+
+[InstMemory_TB]
+A/InstMemory_TB=22|../src/InstructionMemory.v|74|1*115109
+BinW64/InstMemory_TB=3*60741
+R=../src/InstructionMemory.v|74
+SLP=3*61866
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2cb236374b98cbaffccaaf9ed60eaed8d488547a49e65fb789e32d26d3571172800e125f04dfd99c89b0c1e18c91bdd4
+
+[InstructionMemory]
+A/InstructionMemory=22|../src/InstructionMemory.v|1|1*113592
+BinW64/InstructionMemory=3*59641
+R=../src/InstructionMemory.v|1
+SLP=3*60301
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b86a443a1d82ec234d09f8a4c7b8cd6b46404b5c54a2301d05949f8e3043a720f4b97a6cf86f25bae6984c3b6343040c
+
+[MEMStage]
+A/MEMStage=22|../src/MEMStage.v|1|1*120880
+BinW64/MEMStage=3*64511
+R=../src/MEMStage.v|1
+SLP=3*64629
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0636c591f08377f99f870ff36b2104ebf20f1095f39cdefe2dcaf90d3d715e4754a324c0bb6375dff9bba16e0dc97af1
+
+[MEM_WB]
+A/MEM_WB=22|../src/MEM_WB.v|1|1*118949
+BinW64/MEM_WB=3*63613
+R=../src/MEM_WB.v|1
+SLP=3*64081
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|39bae0a70df0b8bb15d6b08784945e23bc69464f9464fa6840d7d0cf03fe215e
+
+[MainControlUnit]
+A/MainControlUnit=22|../src/ControlUnit.v|1|1*19912
+BinW64/MainControlUnit=3*21663
+R=../src/ControlUnit.v|1
+SLP=3*22565
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0c433dab20d7503dcc494f7325eac2f6c09fc8c7985230e38fd3526b4d1529a1f37e750d1e79766dccf73051fd1bc6be
+
+[PCControlUnit]
+A/PCControlUnit=22|../src/ControlUnit.v|43|1*21129
+BinW64/PCControlUnit=3*23381
+R=../src/ControlUnit.v|43
+SLP=3*24686
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ced56f9512e94fa007af14204f66d06ae99761fd475a68e0b938a1ca821be4a208305b3b4502e8ab9249e4cb38ab9255
+
+[RegisterFile]
+A/RegisterFile=22|../src/RegisterFile.v|1|1*122966
+BinW64/RegisterFile=3*64996
+R=../src/RegisterFile.v|1
+SLP=3*65958
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|22f74543ade67d85359ca455f1aa161036d96cbaa54bbfe1fa4f47ec71d76429b2f44cf813f505723adb1e7af9878cbc
+
+[RegisterFile_TB]
+A/RegisterFile_TB=22|../src/RegisterFile.v|42|1*124846
+BinW64/RegisterFile_TB=3*66585
+R=../src/RegisterFile.v|42
+SLP=3*68199
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d6f9a665127a284f595d4274114180c3317f0dcb47cce4c39f30307ecff3fb29fcf8c0a8f36181370187071848bd96f8
+
+[mux_2]
+A/mux_2=22|../src/components.v|1|1*15075
+BinW64/mux_2=3*15624
+R=../src/components.v|1
+SLP=3*17088
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|639b5b5032d37e15e8566396493740790dec5e232ae87240bee5ddb28900050e
+
+[mux_4]
+A/mux_4=22|../src/components.v|11|1*16354
+BinW64/mux_4=3*17293
+R=../src/components.v|11
+SLP=3*19775
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|574b43f2f5c4c07f981e5af5213a053ea4cdfec599650d1216cdc1bb61897cf5
+
+[tb_DataPath]
+A/tb_DataPath=22|../src/DataPath.v|234|1*101862
+BinW64/tb_DataPath=3*56010
+R=../src/DataPath.v|234
+SLP=3*56489
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b70d5dd64ee907628eb36ec11a6b391e57deb9bdbe66518ec643e99d661f13090a0bf79d15cd1db2aaf809bf0b1a792c
+
+[~U]
+$root=12|0*44681|
+ALU=12|0*5284|
+ALU_TB=12|0*5556||0x10
+Compare=12|0*6472|
+DataMemory=12|0*7519|
+DataMemory_TB=12|0*7767||0x10
+DataPath=12|0*29383|
+EXEStage=12|0*9839|
+EXE_MEM=12|0*10111|
+Extender=12|0*6262|
+ForwordingControlUnit=12|0*7211|
+IDStage=12|0*20351|
+ID_EXE=12|0*9476|
+IFStage=12|0*34989|
+IF_ID=12|0*39693|
+InstMemory_TB=12|0*37588||0x10
+InstructionMemory=12|0*37342|
+MEMStage=12|0*43139|
+MEM_WB=12|0*41421|
+MainControlUnit=12|0*6681|
+PCControlUnit=12|0*6934|
+RegisterFile=12|0*45007|
+RegisterFile_TB=12|0*45269||0x10
+mux_2=12|0*5789|
+mux_4=12|0*6019|
+tb_DataPath=12|0*30249||0x10

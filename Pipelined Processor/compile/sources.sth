@@ -1,0 +1,17 @@
+[Files List]
+C:/Aldec/Active-HDL-Student-Edition/vlib/std/src/standard.vhd=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/components.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/DataMemory.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ALU.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/RegisterFile.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/InstructionMemory.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/MEM_WB.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/MEMStage.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/EXE_MEM.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/EXEStage.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ID_EXE.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/IDStage.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/IF_ID.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/IFStage.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/ControlUnit.v=S
+D:/uni/y3 s1/Architecture ENCS4370/Projects/Project_2/Pipelined Processor/src/DataPath.v=S

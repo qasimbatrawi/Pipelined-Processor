@@ -1,0 +1,58 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Pipelined_Processor
+[Library]
+Pipelined_Processor=.\Pipelined_Processor\Pipelined_Processor.lib
+[$LibMap$]
+Pipelined_Processor=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[Files]
+/ALU.v=-1
+/components.v=-1
+/ControlUnit.v=-1
+/DataMemory.v=-1
+/DataPath.v=-1
+/EXE_MEM.v=-1
+/EXEStage.v=-1
+/ID_EXE.v=-1
+/IDStage.v=-1
+/IF_ID.v=-1
+/IFStage.v=-1
+/InstructionMemory.v=-1
+/MEM_WB.v=-1
+/MEMStage.v=-1
+/RegisterFile.v=-1
+/..\..\..\..\..\..\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.asdb=-1
+/..\..\..\..\..\..\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.awc=-1
+[Files.Data]
+.\src\ALU.v=Verilog Source Code
+.\src\components.v=Verilog Source Code
+.\src\ControlUnit.v=Verilog Source Code
+.\src\DataMemory.v=Verilog Source Code
+.\src\DataPath.v=Verilog Source Code
+.\src\EXE_MEM.v=Verilog Source Code
+.\src\EXEStage.v=Verilog Source Code
+.\src\ID_EXE.v=Verilog Source Code
+.\src\IDStage.v=Verilog Source Code
+.\src\IF_ID.v=Verilog Source Code
+.\src\IFStage.v=Verilog Source Code
+.\src\InstructionMemory.v=Verilog Source Code
+.\src\MEM_WB.v=Verilog Source Code
+.\src\MEMStage.v=Verilog Source Code
+.\src\RegisterFile.v=Verilog Source Code
+.\..\..\..\..\..\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.asdb=Accelerated Waveform File
+.\..\..\..\..\..\y3s1\ArchitectureENCS4370\Projects\Project_2\PipelinedProcessor\src\waveform.awc=Accelerated Waveform Configuration

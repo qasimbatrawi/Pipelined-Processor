@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2025-01-16 21:29:16
+Active-HDL 15.0.261.9132 2025-04-26 16:14:28
 
 Elaboration top modules:
 Verilog Module                tb_DataPath
@@ -35,9 +35,3 @@ Library                 | Comment
 -------------------------------------------------------------------------------------------------------
 pipelined_processor     | None
 -------------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r tb_DataPath
-
-
-The performance of simulation is reduced. Version Student Edition

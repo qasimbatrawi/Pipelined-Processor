@@ -4,7 +4,7 @@ module IFStage (
     input wire [1:0] PCSrc,
     input wire [15:0] Branch_TA, Jump_TA, For_TA, 
     output reg [15:0] CurrentPC, New_PC, Instruction,
-	output reg [15:0] num_executed_instructions, num_stall
+	output reg [15:0] num_stall
 );
 
     reg [15:0] PC ;
@@ -23,7 +23,8 @@ module IFStage (
 	    .in2(16'b0),
 	    .sel(kill),
 	    .out(Instruction)
-	);
+	);	  
+	
 	
 	always @(posedge clk) begin
 		if (!stall) begin 
@@ -33,8 +34,7 @@ module IFStage (
 		end	
 		
 		if (Instruction !== 16'bx  && Instruction != 16'b0) begin
-            num_inst <= num_inst + 1;
-            num_executed_instructions <= num_inst + 1; 
+            num_inst <= num_inst + 1;; 
         end
 		if (stall == 1) begin
 			numstall <= numstall + 1;
@@ -54,7 +54,6 @@ module IFStage (
     end
 	
 	initial begin
-		num_executed_instructions = 0 ;
 		num_inst = 16'b0 ;
 		numstall = 0 ;
 		num_stall = 0 ;

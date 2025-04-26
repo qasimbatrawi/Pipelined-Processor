@@ -40,20 +40,10 @@ module DataPath(
 	
 );
 
-	// results of performance registers
-	initial begin
-        #500 
-		num_cycles = num_executed_instructions+num_stall+4 ;
-		$display("Total number of executed instructions: %0d", num_executed_instructions) ;
-		$display("Total number of load instructions: %0d", num_lw) ;
-		$display("Total number of store instructions: %0d", num_sw) ;
-		$display("Total number of alu instructions: %0d", num_alu) ;
-		$display("Total number of control instructions: %0d", num_control) ;
-		$display("Total number of stall cycles: %0d", num_stall) ;
-		$display("Total number of cycles: %0d", num_cycles) ;
-		$finish;
-    end
-	
+
+	assign num_cycles = num_executed_instructions + 1 + num_stall + 4 ;
+
+
 	// Control unit to generate control signals
 	MainControlUnit control(
 		.opcode(opcode),
@@ -100,7 +90,6 @@ module DataPath(
 		.stall(stall),
 		.kill(kill), 
 		
-		.num_executed_instructions(num_executed_instructions),
 		.num_stall(num_stall),
 		.CurrentPC(CurrentPC),
 		.New_PC(PC_IF),
@@ -163,7 +152,8 @@ module DataPath(
 		.num_lw(num_lw),
 		.num_sw(num_sw),
 		.num_alu(num_alu),
-		.num_control(num_control)
+		.num_control(num_control),	 
+		.num_executed_instructions(num_executed_instructions)
 	);
 	
 	// Buffers from ID -> EXE
@@ -294,6 +284,24 @@ module tb_DataPath() ;
 	initial begin
         clk = 0;
         forever #5 clk = ~clk;
+    end		
+	
+	
+	
+	
+	
+	
+    // results of performance registers
+	initial begin
+        #500 
+		$display("Total number of executed instructions: %0d", num_executed_instructions + 1) ;
+		$display("Total number of load instructions: %0d", num_lw) ;
+		$display("Total number of store instructions: %0d", num_sw) ;
+		$display("Total number of alu instructions: %0d", num_alu) ;
+		$display("Total number of control instructions: %0d", num_control) ;
+		$display("Total number of stall cycles: %0d", num_stall) ;
+		$display("Total number of cycles: %0d", num_cycles) ;
+		$finish;
     end
 	
 	

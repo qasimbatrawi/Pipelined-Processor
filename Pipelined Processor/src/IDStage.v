@@ -16,7 +16,7 @@ module IDStage(
 	output reg [15:0] Branch_TA, Jump_TA, For_TA,
 	output reg [2:0] func,
 	output reg [3:0] opcode,
-	output reg [15:0] num_lw, num_sw, num_alu, num_control
+	output reg [15:0] num_lw, num_sw, num_alu, num_control, num_executed_instructions
 ); 	
 
 
@@ -28,16 +28,17 @@ module IDStage(
 	wire [15:0] comp_input ;
 	
 	reg [15:0] RR ;
-	reg [15:0] numlw, numsw, numalu, numcontrol ;
+	reg [15:0] numlw, numsw, numalu, numcontrol, numexc ;
 	
 	initial begin
 		numlw = 0; num_lw = 0 ;
 		numalu = 0 ; num_sw = 0 ;
 		numsw = 0 ;	 num_alu = 0 ;
-		numcontrol = 0 ;  num_control = 0 ;
+		numcontrol = 0 ;  num_control = 0 ;	   
+		numexc = 0 ; num_executed_instructions = 0;
 	end
 	
-	
+
 	assign ALUOp = controlsignals[14:12] ;
 	assign RegWr = controlsignals[11] ;
 	assign MemR = controlsignals[10] ;
@@ -67,8 +68,19 @@ module IDStage(
 	assign opcode = instruction[15:12] ;
 	assign func = instruction[2:0] ; 
 	
-	always @(posedge clk) begin
+	reg [15:0] prev_instruction;
+
+	initial begin
+	    prev_instruction = 16'b0;
+	end		   
+	
+	always @(posedge clk) begin 
 		if (instruction !== 16'bx && instruction != 16'b0) begin
+
+			if(instruction != prev_instruction) begin 
+							
+			numexc <= numexc + 1 ; num_executed_instructions <= numexc + 1 ; end	
+			
 			case (opcode) 
 				4'b0000: if (stall == 0) begin numalu <= numalu + 1 ; num_alu <= numalu + 1 ; end 
 				4'b0010: if (stall == 0) begin numalu <= numalu + 1 ; num_alu <= numalu + 1 ; end 
@@ -79,8 +91,8 @@ module IDStage(
 				4'b0110: begin numcontrol <= numcontrol + 1 ; num_control <= numcontrol + 1 ; end
 				4'b0111: begin numcontrol <= numcontrol + 1 ; num_control <= numcontrol + 1 ; end
 			endcase		
-		end		
-
+		end		  
+		prev_instruction <= instruction;
 	end
 	
 	always @(posedge clk) begin

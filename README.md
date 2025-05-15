@@ -6,6 +6,6 @@ Design and Verification of a Pipelined RISC Processor in Verilog
 
 # Team Members
 
-[***Taleed Hamadneh***]([http://your-link-here.com](https://github.com/taleed606))
+[***Taleed Hamadneh***](https://github.com/taleed606)
 
 ***Laith Nimer***

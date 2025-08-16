@@ -12,10 +12,10 @@ The processor follows a **5-stage pipeline**:
 The design supports some RISC-style instructions and has performance monitoring registers.
 Verification is done through simulation using test programs.
 
-## Datapath Desing
+## Datapath Design
 ![Image](https://github.com/user-attachments/assets/512f24c4-2bc4-45e5-ac39-be223b0b7924)
 
-Link: [Datapath Desing](https://lucid.app/lucidchart/aca65cd4-f99e-4e21-9f2b-6e0fad683a04/edit?viewport_loc=-21647%2C-11050%2C72471%2C31687%2C0_0&invitationId=inv_ad7eccc4-d60d-431f-96d0-cde180ede624)
+Link: [Datapath Design](https://lucid.app/lucidchart/aca65cd4-f99e-4e21-9f2b-6e0fad683a04/edit?viewport_loc=-21647%2C-11050%2C72471%2C31687%2C0_0&invitationId=inv_ad7eccc4-d60d-431f-96d0-cde180ede624)
 
 ## Team Members
 

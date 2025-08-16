@@ -1,0 +1,10 @@
+library.cfg
+
+Project_2.aws
+
+Project_2.wsw
+
+Pipelined Processor/*
+
+!Pipelined Processor/src/
+!Pipelined Processor/src/**
